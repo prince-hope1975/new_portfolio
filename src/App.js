@@ -1,13 +1,20 @@
 import React from "react"
+import SectionOne from "./components/IntroSection.jsx";
 // import './App.css';
 import Nav from "./components/Nav.jsx"
+import { Ch, H1 , GlobalStyles} from "./styled_components/intro_animation";
+
 
 function App() {
+  let strin = "Hello, My Name Is Prince";
+  strin = [...strin];
   return (
     <div className="App">
-     <Nav>
-       
-     </Nav>
+      <GlobalStyles/>
+        <Nav />
+        <SectionOne />
+   
+ 
     </div>
   );
 }

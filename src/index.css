@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.svg{
+  font-size:2.1rem;
+  color: red;
+  /* margin-right: 2rem; */
+}
+@media (min-width: 600px){
+  .App{
+    padding-left: 5rem;
+  }
+}
