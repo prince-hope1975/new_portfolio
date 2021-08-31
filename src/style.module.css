@@ -1,8 +1,85 @@
-.backSvg {
-    /* background: #000; */
-    top: -10rem;
-    width: clamp(300px,50vw,500px);
+.container{
+    position: absolute;
+    max-width: 100vw;
+    font-size: 7px;
+    right: 80%;
+    top:25%;
+}
+.phone, .computer, .ipad{
     position: absolute;
     z-index: -1;
+}
+.phone{
+    position: absolute;
+    width: 14.04em;
+    height: 19.564em;
+    left: 18.8em;
+    top: 1em;
+          opacity: 0;
 
+    transform: translateX(-500px);
+    animation: returnToScreen 4s forwards;
+
+}
+.computer {
+    position: absolute;
+    width: 32.29666667em;
+    height: 33.59em;
+    left: 0em;
+    top: 6.216em;
+          /* opacity: 0.3; */
+
+    transform: translateY(-1000px);
+    animation: returnToScreen 4s forwards;
+
+
+
+}
+.ipad{
+    position: absolute;
+    width: 24.221em;
+    height: 26.359em;
+    left: 24.328em;
+    top: 13.414em;
+          opacity: 00;
+
+        transform: translateX(500px);
+        animation: returnToScreen 4s forwards;
+
+}
+.ipad, .computer, .phone{
+        animation-delay: 4s;
+
+}
+  @keyframes returnToScreen {
+      to {
+          transform: translateX(0);
+          transform: translateY(0);
+          opacity: 1;
+      }
+  }
+@media (min-width: 500px) {
+    .container {
+        font-size: 8px;
+        
+    }
+}
+@media (min-width: 600px) {
+    .container {
+        font-size: 10px;
+        top:20%;
+        }
+}
+@media (min-width: 800px) {
+    .container{
+    font-size: 14px;
+        top:0%;
+
+} 
+}
+@media (min-width: 1000px) {
+    .container {
+
+        font-size: 15px;
+    }
 }

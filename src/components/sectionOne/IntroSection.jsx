@@ -8,7 +8,7 @@ import {
   ComputerSection,
   ComputerHeader,
   Circle,
-} from "../styled_components/section";
+} from "../../styled_components/section";
 
 import {TypingAnimation, DeviceAnimation} from "./animations"
 
@@ -24,9 +24,9 @@ const SectionOne = () => {
           <Circle backgroundColor={`green`} />
           <Circle backgroundColor={`blue`} />
         </ComputerHeader>
-      </ComputerSection>
-      <TypingAnimation />
+      <TypingAnimation  />
       <DeviceAnimation />
+      </ComputerSection>
     
     </Section1>
   );

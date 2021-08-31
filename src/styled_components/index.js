@@ -123,6 +123,7 @@ export const Logo = styled.li`
       position: absolute;
       transform: translateX(12.5rem) rotate(0deg);
       transition: 600ms ease;
+      font-size: 2.8rem;
 
     }
   }
