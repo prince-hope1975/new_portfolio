@@ -43,8 +43,8 @@ const Nav = () => {
 
 
 const array = [
-  {item:<GiComputerFan className="svg" />,text:"Tech Stack"},
   {item:<AiFillHome className="svg" />,text:"Home"},
+  {item:<GiComputerFan className="svg" />,text:"Tech Stack"},
   {item:<FaMoneyBillWave className="svg" />,text:"Hire Me"},
   {item:<FcAbout className="svg" />,text:"About me"},
 ];

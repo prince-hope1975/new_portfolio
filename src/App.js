@@ -1,5 +1,5 @@
 import React from "react"
-import SectionOne from "./components/IntroSection.jsx";
+import SectionOne from "./components/sectionOne/IntroSection";
 // import './App.css';
 import Nav from "./components/Nav.jsx"
 import { Ch, H1 , GlobalStyles} from "./styled_components/intro_animation";
